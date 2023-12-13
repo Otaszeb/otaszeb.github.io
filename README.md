@@ -1,0 +1,6 @@
+..... 
+# YO! You know what time it is? *_Blog o, clock!_*
+......      
+> Just playing around **_for the now_**.
+> So, dearest viewer(s) hope you enjoy yourselves reading this code as I did writing it.  
+>  **MWAH!**

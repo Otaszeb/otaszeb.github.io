@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+</head>
+<body>
+    <!--Forms-->
+    <form action="process.php" method="post">
+        <label>First-name</label>
+        <input type="text" name="First-name" placeholder="First-name">
+        <br>
+        <div>
+        <label>Last-name</label>
+        <input type="text" name="Last-name" placeholder="Last-name">
+        </div>
+        <div>
+        <label>Age</label>
+        <input type="number" name="Age" value="30">
+        </div>
+        <label>Birthday</label>
+        <input type="date" name="Birthday">
+        <div>
+            <label>Gender</label>
+        <select name="Gender">
+            <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+        </select>
+        <br>
+        </div>
+        <label>Email</label>
+        <input type="email" name="Email" placeholder="abc@gmail.com">
+        <br>
+        <div>
+        <label>About yourself(optional)</label>
+        <textarea name="message"></textarea>
+        </div>
+        <br>
+        <label>How did you come across our website</label>
+        <select name="How did you come across our website">
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Forage">Forage</option>
+            <option value="Friend/family">Friend/family</option>
+        </select>
+        <div>
+        <!-- <name ="firstname"placeholder=Enter first name"></name> -->
+        </div>
+        <br>  
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+</html>
